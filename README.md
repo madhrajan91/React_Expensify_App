@@ -1,6 +1,7 @@
 # React Expensify App by Andrew Mead
 Expensify App that uses client side routing
 
-install: yarn install
-running the project: yarn run dev-server
+Rnstall: yarn install
+
+Running the project: yarn run dev-server
 
