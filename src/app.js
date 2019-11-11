@@ -43,6 +43,13 @@ const expenseTwo = store.dispatch(addExpense(
     }
 ));
 
+const expenseThree = store.dispatch(addExpense(
+    {   description:'insurance bill',
+        'amount': 40,
+        'createdAt':7000
+    }
+));
+
 store.dispatch(setTextFilter('rent'));
 
 setTimeout(() => {
