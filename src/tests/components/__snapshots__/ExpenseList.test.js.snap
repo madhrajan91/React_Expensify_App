@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expenselist from expenses 1`] = `
+<div>
+  <h1>
+     Expense List 
+  </h1>
+  <ExpenseListItemComponent
+    expense={
+      Object {
+        "amount": 100,
+        "createdAt": 1000,
+        "description": "Water bill",
+        "id": 1,
+        "note": "",
+      }
+    }
+    key="1"
+  />
+  <ExpenseListItemComponent
+    expense={
+      Object {
+        "amount": 20,
+        "createdAt": 5000,
+        "description": "Gum bill1",
+        "id": 2,
+        "note": "",
+      }
+    }
+    key="2"
+  />
+  <ExpenseListItemComponent
+    expense={
+      Object {
+        "amount": 40,
+        "createdAt": -345600000,
+        "description": "Gum bill2",
+        "id": 3,
+        "note": "",
+      }
+    }
+    key="3"
+  />
+  <ExpenseListItemComponent
+    expense={
+      Object {
+        "amount": 500000,
+        "createdAt": 864000000,
+        "description": "insurance ",
+        "id": 4,
+        "note": "",
+      }
+    }
+    key="4"
+  />
+  4
+</div>
+`;
+
+exports[`should render expenselist with empty expenses 1`] = `
+<div>
+  <h1>
+     Expense List 
+  </h1>
+  <p>
+    No Expenses
+  </p>
+  0
+</div>
+`;

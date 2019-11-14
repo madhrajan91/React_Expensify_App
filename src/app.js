@@ -15,6 +15,7 @@ import configureStore from './store/configureStore'
 
 import './styles/style.scss'
 import 'normalize-css/normalize.css'
+import 'react-dates/lib/css/_datepicker.css'
 
 const store = configureStore();
 console.log(store.getState())
