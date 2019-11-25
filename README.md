@@ -7,3 +7,4 @@ Install: yarn install
 
 Running the project: yarn run dev-server
 
+Running test: yarn run test --watch
