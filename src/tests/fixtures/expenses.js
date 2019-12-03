@@ -23,7 +23,7 @@ const expenses = [
     {   
         'id':4,
         'description':'insurance ',
-        'amount': 500000,
+        'amount': 500,
         'note': '',
         'createdAt':moment(0).add(10,'days').valueOf()
     }

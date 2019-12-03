@@ -44,7 +44,7 @@ exports[`should render expenselist from expenses 1`] = `
   <ExpenseListItemComponent
     expense={
       Object {
-        "amount": 500000,
+        "amount": 500,
         "createdAt": 864000000,
         "description": "insurance ",
         "id": 4,
